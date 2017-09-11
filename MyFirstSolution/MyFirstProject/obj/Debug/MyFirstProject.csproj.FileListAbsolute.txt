@@ -1,0 +1,7 @@
+C:\Users\polom\Desktop\IT1050\MyFirstSolution\MyFirstProject\bin\Debug\MyFirstProject.exe.config
+C:\Users\polom\Desktop\IT1050\MyFirstSolution\MyFirstProject\bin\Debug\MyFirstProject.exe
+C:\Users\polom\Desktop\IT1050\MyFirstSolution\MyFirstProject\bin\Debug\MyFirstProject.pdb
+C:\Users\polom\Desktop\IT1050\MyFirstSolution\MyFirstProject\obj\Debug\MyFirstProject.csprojResolveAssemblyReference.cache
+C:\Users\polom\Desktop\IT1050\MyFirstSolution\MyFirstProject\obj\Debug\MyFirstProject.csproj.CoreCompileInputs.cache
+C:\Users\polom\Desktop\IT1050\MyFirstSolution\MyFirstProject\obj\Debug\MyFirstProject.exe
+C:\Users\polom\Desktop\IT1050\MyFirstSolution\MyFirstProject\obj\Debug\MyFirstProject.pdb
