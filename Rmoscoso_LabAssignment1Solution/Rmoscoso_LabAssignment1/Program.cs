@@ -1,0 +1,61 @@
+﻿namespace Rmoscoso_LabAssignment1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string firstName;
+            string middleInitial;
+            string lastName;
+            string fullName;
+            int userAge;
+            bool isCitizen;
+            bool canVote;
+            int heightFeet;
+            double heightInches;
+            double totalHeightCM;
+          
+            
+            System.Console.Write("What is your name? ");    
+            firstName = System.Console.ReadLine();
+
+            System.Console.Write("What is your middle initial?");
+            middleInitial = System.Console.ReadLine();
+
+            System.Console.Write("What is your last name?");
+            lastName = System.Console.ReadLine();
+
+            // i think i got everything correct but i can't figure out why i cannot concat the fullname? i tried fullName = firstName + middleInitial + lastName; but it isn't working for me?
+
+            System.Console.Write("What is your full name?");
+            fullName = System.Console.ReadLine();
+
+            System.Console.Write("What is your height in feet?");
+            heightFeet = int.Parse(System.Console.ReadLine());
+
+            System.Console.Write("How many inches after your base height in feet to add?");
+            heightInches = double.Parse(System.Console.ReadLine());
+
+            totalHeightCM = heightFeet + heightInches * 2.54;
+
+            System.Console.Write("What is your age?");
+
+            userAge = int.Parse(System.Console.ReadLine());
+                    
+            // I also can't figure out how to get these last two bool values to work in my console when i run my program. they both bunch up together to form one sentence?
+
+            System.Console.Write("are you a citizen? If yes, answer true");
+            bool a = bool.Parse(System.Console.ReadLine());
+            isCitizen = true;
+            
+           
+            System.Console.Write("To be eligible to vote, you must be a citizen, and you must be at least 18 years old. If yes, answer true.");
+            bool b = bool.Parse(System.Console.ReadLine());
+            canVote = true;
+           
+
+            System.Console.Write("Press any key to continue...");
+            System.Console.ReadKey();
+        }
+    }
+}
